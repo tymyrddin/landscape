@@ -1,6 +1,6 @@
 # Digital defence @home
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/1a5f4498-8ee8-48c4-8619-ec8b7c15ba9d/deploy-status)](https://app.netlify.com/sites/ornate-sprite-cf5913/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1a5f4498-8ee8-48c4-8619-ec8b7c15ba9d/deploy-status)](https://landscape.tymyrddin.dev)
 
 Many government services and commercial sectors push apps on-line though, and increasingly people are obliged to use devices for education, work, and play. Often these apps are not very secure, while devices may be shared among family members, increasing the chance for exposure to malware.
 
