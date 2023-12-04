@@ -1,0 +1,43 @@
+site_name: passive
+
+nav:
+  - What? Why? How?: "README.md"
+  - Device independent:
+    - Introduction: "independent/README.md"
+    - Detection, analysis and prevention of phishing: "independent/phishing.md"
+    - Preventing drive-by downloads: "independent/drive-by.md"
+    - Using multifactor authentication (MFA): "independent/mfa.md"
+    - Ransomware prevention, detection and removal (general): "independent/ransomware.md"
+    - Analysing trojans (in general): "independent/analysing-trojans.md"
+  - Windows:
+    - Introduction: "windows/README.md"
+    - Creating a Windows restore point: "windows/restore-point.md"
+    - Enabling controlled folder access (CFA): "windows/cfa.md"
+    - Windows malware detection and removal: "windows/cleaning.md"
+    - Catching and removing malicious registry entries: "windows/windows-registry.md"
+    - Unwanted windows application suggestions: "windows/windows-unwanted.md"
+  - macOS:
+    - Introduction: "macos/README.md"
+    - Setting up the time machine in macOS: "macos/time-machine.md"
+    - Password protecting macOS files and folders: "macos/pwprotect.md"
+    - Enabling macOS full disk encryption using FileVault: "macos/mac-disk-encryption.md"
+    - macOS malware detection and removal: "macos/cleaning.md"
+    - Catching and removing malicious registry entries: "macos/daemons-and-agents.md"
+  - Linux:
+    - Introduction: "linux/README.md"
+  - Mobile:
+    - Introduction: "mobile/README.md"
+    - "mobile/malware.md"
+    - "mobile/smishing.md"
+    - "mobile/vishing.md"
+    - "mobile/swapping.md"
+    - "mobile/spyware.md"
+    - "mobile/tracking.md"
+    - "mobile/stalkerware.md"
+  - Android:
+    - Introduction: "android/README.md"
+    - "android/analysis.md"
+    - "android/cleaning.md"
+  - iOS:
+    - Introduction: "ios/README.md"
+    - "ios/cleaning.md"

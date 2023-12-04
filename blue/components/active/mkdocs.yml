@@ -1,0 +1,15 @@
+site_name: active
+
+nav:
+  - What? Why? How?: "README.md"
+  - Design notes:
+    - "design/README.md"
+    - "design/tactics.md"
+    - "design/taxonomies.md"
+    - "design/roadmaps.md"
+    - "design/detection.md"
+    - "design/concealed.md"
+  - Small choices:
+    - "small/README.md"
+    - "small/honeyports.md"
+    - "small/honeyclients.md"

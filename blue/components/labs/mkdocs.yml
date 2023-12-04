@@ -1,0 +1,9 @@
+site_name: hands-on
+
+nav:
+  - What? Why? How?: "README.md"
+  - TryHackMe labs:
+    - Introduction: "thm/README.md"
+    - Email cases: "thm/cases.md"
+    - The Greenholt phish: "thm/greenholt.md"
+    - Android malware (static) analysis example: "thm/android.md"

@@ -1,0 +1,58 @@
+site_name: Degital defence @Home
+site_url: https://pap.tymyrddin.dev/
+
+theme:
+  name: material
+  docs_dir: assets
+  logo: assets/logo.png
+  favicon: assets/img/favicon.png
+  navigation_depth: 2
+  collapse_navigation: false
+  include_homepage_in_sidebar: false
+  titles_only: true
+  sticky_navigation: true
+  highlightjs: true
+  language: 'en'
+  palette:
+    primary: 'blue'
+    accent: 'blue'
+
+markdown_extensions:
+  - toc:
+      permalink: "#"
+  - smarty
+  - admonition
+  - footnotes
+  - codehilite
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+copyright: <a href="https://uu.tymyrddin.dev">Unseen University</a>, 2023, with a forest garden <a href="https://ut7.fr/">fostered by /ut7</a>
+
+extra_css:
+  - assets/css/custom.css
+
+nav:
+  - Home: "index.md"
+  - Threats: '!include ./components/threats/mkdocs.yml'
+  - Passive defences: '!include ./components/passive/mkdocs.yml'
+  - Active defences: '!include ./components/active/mkdocs.yml'
+  - Hands-on: '!include ./components/labs/mkdocs.yml'
+
+plugins:
+  - monorepo
+  - search

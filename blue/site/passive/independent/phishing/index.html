@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://pap.tymyrddin.dev/passive/independent/phishing/" />
+      <link rel="shortcut icon" href="../../../img/favicon.ico" />
+    <title>Phishing - Blue @Home</title>
+    <link rel="stylesheet" href="../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="../../../assets/css/custom.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Phishing";
+        var mkdocs_page_input_path = "passive/independent/phishing.md";
+        var mkdocs_page_url = "/passive/independent/phishing/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../..">
+          <img src="../../../assets/logo.png" class="logo" alt="Logo"/>
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Threats</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../threats/">What? Why? How?</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="#">Backdrop</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../threats/backdrop/">Introduction</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../threats/backdrop/adversaries/">Unusual suspects</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../threats/backdrop/marketplace/">Marketplaces</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../threats/backdrop/c2/">Red team takeover</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../threats/backdrop/maas/">Malware-as-a-Service (MaaS)</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../threats/backdrop/raas/">Ransomware-as-a-Service (RaaS)</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../threats/backdrop/iaas/">Infostealer-as-a-Service (IaaS)</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../threats/backdrop/lol/">More LOL</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../threats/backdrop/botnets/">Botnet activity increase</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../threats/backdrop/youtoo/">No device can ever be called secure</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../threats/backdrop/odd/">Oddly overlooked dependencies?</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="#">Mitre Att&Ck</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../threats/mitre/">Introduction</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../threats/mitre/initial/">Initial access shifts</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../threats/mitre/phishing/">Phishing for information</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../threats/mitre/c2/">Application Layer Protocol (Mail Protocols)</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../threats/mitre/drive-by/">Drive-by compromise</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../threats/mitre/supply-chain/">Supply chain compromise</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../threats/mitre/iocs/">Signs of a compromise @home</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Passive defences</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../../">What? Why? How?</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="#">Device independent</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../">Introduction</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="./">Phishing</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../drive-by/">Drive-by download</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../mfa/">MFA bypass attacks</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="#">Workstation specific</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../workstation/">Introduction</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../workstation/ransomware/">Phishing for information</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Mobile specific</a>
+    <ul class="current">
+                <li class="toctree-l2"><a class="reference internal" href="../../mobile/">Introduction</a>
+                </li>
+                <li class="toctree-l2 current"><a class="reference internal current" href="./">Phishing</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../mobile/malware/">Mobile malware</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../mobile/smishing/">Smishing</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../mobile/vishing/">Vishing</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../mobile/swapping/">SIM swapping</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../mobile/otp-bots/">OTP bots</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../mobile/squatting/">App squatting</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../mobile/ransomware/">Ransomware</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../mobile/madware/">Madware</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../mobile/spyware/">Spyware</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../mobile/tracking/">Location tracking</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../mobile/stalkerware/">Stalkerware</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Active defences</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../active/">What? Why? How?</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="#">Design notes</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../active/design/">Introduction</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../active/design/tactics/">Tactics</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../active/design/taxonomies/">Taxonomies of honeypots</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../active/design/roadmaps/">Honeypot roadmaps</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../active/design/detection/">Detecting honeypots</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../active/design/concealed/">Avoiding honeypot detection</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="#">Small choices</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../active/small/">Introduction</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../active/small/honeyports/">Honeyports</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../active/small/honeyclients/">Honeyclients</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Hands-on</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../hands-on/">What? Why? How?</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="#">TryHackMe labs</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../hands-on/thm/">Introduction</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../hands-on/thm/cases/">Email cases</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../../hands-on/thm/greenholt/">The Greenholt Phish</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../..">Blue @Home</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Passive defences</li>
+          <li class="breadcrumb-item">Mobile specific</li>
+      <li class="breadcrumb-item active">Phishing</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="phishing">Phishing<a class="headerlink" href="#phishing" title="Permanent link">#</a></h1>
+<p>Phishing attempts to trick people into clicking on fraudulent links in emails. The link typically takes the person to a seemingly legitimate site with a malware download.</p>
+<h2 id="detection">Detection<a class="headerlink" href="#detection" title="Permanent link">#</a></h2>
+<ul>
+<li>Hover the cursor over the <code>From</code> address to confirm the email address and then cross-check the website the official email address and domain used.</li>
+<li>Take note of the spelling of the sender address and email subject line, which may contain small details.</li>
+<li>Look for inconsistencies in grammar and small spelling mistakes in content.</li>
+<li>Check links before you leap. Hover the cursor over the link, and the destination address displays in a tiny bar down the bottom of a browser. On mobile phones, hold down on the link, and a pop-up window with the link will appear.</li>
+<li>An urgent warning tries to frighten people into reacting without considering the consequences.</li>
+<li>&ldquo;Clickbait&rdquo; titles on social media, advertising or publications are attention-grabbing.</li>
+<li>Generic greetings are not the common practices of legitimate companies.</li>
+<li>Poor quality logos that are unclear or smaller than usual.</li>
+</ul>
+<p>Mind that with AI-driven content tools broadly available at a low or no cost, adversaries are using such tools to make their phishing emails and text messages appear more realistic than ever before. Trust your gut, and if suspicious, do some analysis.</p>
+<h2 id="analysis">Analysis<a class="headerlink" href="#analysis" title="Permanent link">#</a></h2>
+<ul>
+<li>Copy and paste the entire email header and run an <a href="https://testlab.tymyrddin.dev/docs/phishing/header">email header analysis tool</a>. It is good to use multiple resources as each tool might reveal information that another tool may not.</li>
+<li><a href="https://testlab.tymyrddin.dev/docs/phishing/url">Extract urls from the text</a> for further analysis.</li>
+<li><a href="https://testlab.tymyrddin.dev/docs/phishing/ip">Check sender&rsquo;s IP address and urls found in the text</a>.</li>
+<li>If the email has an attachment: Obtain the attachment safely. If you don&rsquo;t know how, ask someone who does. Get its hash and <a href="https://testlab.tymyrddin.dev/docs/phishing/rep">check the file&rsquo;s reputation</a> with the hash to see if it&rsquo;s a known malicious document.</li>
+<li>Upload it to a <a href="https://testlab.tymyrddin.dev/docs/phishing/sandbox">sandbox</a> for dynamic analysis.</li>
+</ul>
+<h2 id="prevention">Prevention<a class="headerlink" href="#prevention" title="Permanent link">#</a></h2>
+<ul>
+<li>Never open an attachment unless certain that the communication is from a genuine source.</li>
+<li>Monitor personal and private accounts and look at the settings. Multifactor verification is a feature that secures email and work accounts.</li>
+<li>Set up at least two email addresses: a private address and a public address.</li>
+<li>The private address should not be your first and last name, and be protected by never being used on publicly accessible online resources. Or masked. Proton vault and other services allow for this. Or use a graphics file. If it is discovered, change it.</li>
+<li>The public address as a temporary address and needs to be changed frequently. Consider using a number of public addresses. That way you can perhaps trace which services may be selling addresses to spammers or have been compromised and its data sold on the black market.</li>
+<li>Only open email accounts with providers that include spam filtering.</li>
+<li>Do not respond to any spam, ever.</li>
+<li>Think before you click &lsquo;unsubscribe&rsquo;.</li>
+<li>Web browsers include settings to restrict access to dangerous websites, and when one attempts to access a bad site, an alert message appears. Do not ignore these warnings and do not visit that website or access that file.</li>
+<li>Keep your browser updated, and install the NoScript extension.</li>
+</ul>
+<h2 id="other-mitigations">Other mitigations<a class="headerlink" href="#other-mitigations" title="Permanent link">#</a></h2>
+<ul>
+<li><a href="https://mailserver.tymyrddin.dev/">Email security (SPF, DKIM, DMARC)</a></li>
+<li>SPAM filters (flags or blocks incoming emails based on reputation)</li>
+<li>Email labels (alert users that an incoming email is from an outside source)</li>
+<li>Email address/domain/URL Blocking (based on reputation or explicit denylist, preferably whitelisting)</li>
+<li>Attachment blocking (based on the extension of the attachment)</li>
+<li>Attachment sandboxing (detonating email attachments in a sandbox environment to detect malicious activity)</li>
+<li>Security awareness training (internal phishing campaigns)</li>
+</ul>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../../mobile/" class="btn btn-neutral float-left" title="Introduction"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../../mobile/malware/" class="btn btn-neutral float-right" title="Mobile malware">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+      <p><a href="https://uu.tymyrddin.dev">Unseen University</a>, 2023, with a forest garden <a href="https://ut7.fr/">fostered by /ut7</a></p>
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../../mobile/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../../mobile/malware/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../..";</script>
+    <script src="../../../js/theme_extra.js"></script>
+    <script src="../../../js/theme.js"></script>
+      <script src="../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
