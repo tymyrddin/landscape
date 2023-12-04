@@ -1,11 +1,14 @@
-site_name: Degital defence @Home
+site_name: Digital defence @Home
 site_url: https://landscape.tymyrddin.dev/
+repo_name: Github
+repo_url: https://github.com/tymyrddin/landscape
 
 theme:
   name: material
+  font: false
   docs_dir: assets
   logo: assets/logo.png
-  favicon: assets/img/favicon.png
+  favicon: assets/images/favicon.png
   navigation_depth: 2
   collapse_navigation: false
   include_homepage_in_sidebar: false
@@ -13,13 +16,23 @@ theme:
   sticky_navigation: true
   highlightjs: true
   language: 'en'
-  palette:
-    primary: 'blue'
-    accent: 'blue'
+  palette: # (1)!
+
+    # Palette toggle for dark mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-4 # (2)!
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
 
 markdown_extensions:
   - toc:
-      permalink: "#"
+      permalink: true
   - smarty
   - admonition
   - footnotes
@@ -56,3 +69,4 @@ nav:
 plugins:
   - monorepo
   - search
+  - git-revision-date

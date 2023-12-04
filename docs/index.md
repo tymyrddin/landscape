@@ -4,13 +4,11 @@ Many government services and commercial sectors push apps on-line though, and in
 
 In this changing threat landscape, the digital divide becomes more visible than ever before. Many people have limited access to technology or lack the ability (skills, resources) to use technology securely. And the weakest spots are the most likely point of entry.
 
-These write-ups are about understanding the landscape for securing the entire stack in our respective home and organisational contexts as good as we can ourselves, down to storage components and add-on peripherals, operating systems, virtualisation layers, system libraries and external APIs, etc. 
+History show us that holding the industry and governmental echelons accountable, works too slow, if at all. [Why are we not building a defendable Internet?](https://www.youtube.com/watch?v=PLJJY5UFtqY)
 
-## Why?
+These write-ups are about understanding the landscape for securing the entire stack in our respective home and organisational contexts as good as we can ourselves, down to storage components and add-on peripherals, operating systems, virtualisation layers, system libraries and external APIs, etc.
 
-History show us that holding the industry and governmental echelons accountable, works way too slow, if at all. [Why are we not building a defendable Internet?](https://www.youtube.com/watch?v=PLJJY5UFtqY).
-
-## How?
+## In a nutshell
 
 * We can watch the [threat landscape](./threats/backdrop/README.md) change and discover old and new potential digital threats.
 * We can [map our defensive capabilities](./threats/mitre/README.md) against the Mitre Att&Ck framework and overlay this map with the potential threats to our devices and (home) networks for discovering where and how best to invest our time and energy.

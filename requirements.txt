@@ -3,3 +3,4 @@ mkdocs
 mkdocs-material
 pymdown-extensions
 mkdocs-monorepo-plugin
+mkdocs-git-revision-date-plugin

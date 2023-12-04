@@ -6,5 +6,5 @@ Many government services and commercial sectors push apps on-line though, and in
 
 In this changing threat landscape, the digital divide becomes more visible than ever before. Many people have limited access to technology or lack the ability (skills, resources) to use technology securely. And the weakest spots are the most likely point of entry.
 
-These write-ups are about understanding the landscape for securing the entire stack in our respective home and organisational contexts as good as we can ourselves, down to storage components and add-on peripherals, operating systems, virtualisation layers, system libraries and external APIs, etc. 
+These write-ups are about understanding the landscape for securing the entire stack in our respective contexts as good as we can, down to storage components and add-on peripherals, operating systems, virtualisation layers, system libraries and external APIs, etc. 
 
