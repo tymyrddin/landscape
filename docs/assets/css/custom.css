@@ -15,7 +15,20 @@ body {
 }
 
 .md-header {
-background-color: transparent;
+  background-color: transparent;
+}
+
+.md-content {
+  background-color: white;
+  color: black;
+}
+
+.md-content h1 {
+  color: black;
+}
+
+.md-content h1 {
+  color: blue;
 }
 
 h1 {
