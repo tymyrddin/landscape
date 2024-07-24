@@ -24,12 +24,6 @@ theme:
         icon: material/brightness-4 # (2)!
         name: Switch to light mode
 
-    # Palette toggle for light mode
-    - scheme: slate
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-
 markdown_extensions:
   - toc:
       permalink: true
@@ -54,7 +48,7 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
-copyright: <a href="https://uu.tymyrddin.dev">Unseen University</a>, 2023, with a forest garden <a href="https://ut7.fr/">fostered by /ut7</a>
+copyright: <a href="https://tymyrddin.dev">Ty Myrddin</a>, 2024, with a forest garden <a href="https://ut7.fr/">fostered by /ut7</a>
 
 extra_css:
   - assets/css/custom.css
