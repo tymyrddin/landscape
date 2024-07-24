@@ -21,14 +21,20 @@ body {
 .md-content {
   background-color: white;
   color: black;
+  font-size: 1.0rem;
 }
 
 .md-content h1 {
   color: black;
 }
 
-.md-content h1 {
+.md-content a {
   color: blue;
+}
+
+.md-source-file__fact {
+  align-items: center;
+  color: black;
 }
 
 h1 {
