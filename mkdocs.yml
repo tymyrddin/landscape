@@ -16,10 +16,8 @@ theme:
   sticky_navigation: true
   highlightjs: true
   language: 'en'
-  palette: # (1)!
-
-    # Palette toggle for dark mode
-    - scheme: default
+  palette:
+    - scheme: slate
 
 markdown_extensions:
   - toc:
